@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calc.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="main-body"> 
+        <div class="calc">
+            <div class="output">
+                <input type="text" name="" id="screen">
+            </div>
+            <div class="btn">
+                <div class="row">
+                    <button onclick="clrDisplay ()" class="btn-style">C</button>
+                </div>
+                <div class="row">
+                    <button onclick="btnclick(7)" class="btn-style">7</button>
+                    <button onclick="btnclick(8)" class="btn-style">8</button>
+                    <button onclick="btnclick(9)" class="btn-style">9</button>
+                    <button onclick="btnclick('-')" class="btn-style">-</button>
+                </div>
+                <div class="row">
+                    <button onclick="btnclick(4)" class="btn-style">4</button>
+                    <button onclick="btnclick(5)" class="btn-style">5</button>
+                    <button onclick="btnclick(6)" class="btn-style">6</button>
+                    <button onclick="btnclick('+')" class="btn-style">+</button>
+                </div>
+                <div class="row">
+                    <button onclick="btnclick(1)" class="btn-style">1</button>
+                    <button onclick="btnclick(2)" class="btn-style">2</button>
+                    <button onclick="btnclick(3)" class="btn-style">3</button>
+                    <button onclick="btnclick('*')" class="btn-style">x</button>
+                </div>
+                <div class="row">
+                    <button onclick="btnclick(0)" class="btn-style">0</button>
+                    <button onclick="btnclick('/')" class="btn-style">/</button>
+                    <button onclick="btnclick('.')" class="btn-style">.</button>
+                    <button onclick="sum_result()" class="btn-style">=</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
